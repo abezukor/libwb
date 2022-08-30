@@ -101,7 +101,7 @@
 #endif /* WB_USE_JSON11 */
 
 #if 1 || WB_USE_JSON11
-#include "vendor/json11.hpp"
+#include "vendor/json11/json11.hpp"
 #endif /* WB_USE_JSON11 */
 
 /***********************************************************/

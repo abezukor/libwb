@@ -91,7 +91,7 @@ static inline json11::Json wbLogEntry_toJSONObject(wbLogEntry_t elem) {
       {"file", wbLogEntry_getFile(elem)},
       {"function", wbLogEntry_getFunction(elem)},
       {"line", wbLogEntry_getLine(elem)},
-      {"time", wbLogEntry_getTime(elem)},
+      {"time", json11::Json((int) wbLogEntry_getTime(elem))},
       {"message", wbLogEntry_getMessage(elem)},
   };
   return json;

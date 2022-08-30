@@ -17,3 +17,14 @@ test-dataset/
 test
 test.dSYM/
 Linux-x86_64
+
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+cmake_install.cmake
+null.d
+
+
+Makefile
+*.a
+*.so
